@@ -7,7 +7,7 @@ app.listen(3001, () => {
 });
 
 app.get("/", (req, res) => {
-    res.send("Welcome! Try http://localhost:3001/name, http://localhost:3001/age, or http://localhost:300/address");
+    res.send("Welcome! Try http://localhost:3001/name, http://localhost:3001/age, or http://localhost:3001/address");
 });
 
 app.get("/name", (req, res) => {
